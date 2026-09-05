@@ -1,0 +1,27 @@
+{
+  "generatedBy": "scripts/headless/shot-engine-hero.mjs",
+  "renderPage": "https://axlekeys.com/render",
+  "renderer": "ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x00009A49) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "capturedAt": "2026-09-02T19:33:08.335Z",
+  "width": 1800,
+  "height": 640,
+  "examples": [
+    {
+      "file": "evals/golden/side-table.js",
+      "sha256": "d70a31adea625e0fc362c4c9d2953339ece1c7add1e0a0c5e6fd652a014716a6"
+    },
+    {
+      "file": "evals/fixtures/dado-joint.js",
+      "sha256": "4f7962f0efc1ba6362489a5b86510b1b68df311b3df703ed6a18c4da3895ae1b"
+    },
+    {
+      "file": "evals/golden/drawer-box.js",
+      "sha256": "d852f5aa52ff68530a4a8a2f1e6e9f14f46a41ae983f3ff6f37a6a8796c4773b"
+    }
+  ],
+  "coverage": {
+    "side-table": 0.1911,
+    "dado-joint": 0.2007,
+    "drawer-box": 0.2356
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "axle-cad-engine",
+  "version": "0.1.1",
+  "description": "Build parametric CAD models in JavaScript, run them on your own machine, and get the same verdict axlekeys.com gives — offline, in about 55ms.",
+  "author": {
+    "name": "Axle Keys",
+    "url": "https://axlekeys.com"
+  },
+  "homepage": "https://axlekeys.com",
+  "repository": "https://github.com/AxleKeys/cad-engine",
+  "license": "MIT",
+  "keywords": [
+    "cad",
+    "parametric",
+    "replicad",
+    "opencascade",
+    "step",
+    "geometry",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "metadata": {
+    "skills": [
+      "brief-to-model",
+      "design-loop",
+      "parametric-fit"
+    ]
+  }
+}

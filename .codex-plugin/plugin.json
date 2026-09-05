@@ -1,0 +1,38 @@
+{
+  "name": "axle-cad-engine",
+  "version": "0.1.1",
+  "description": "Build parametric CAD models in JavaScript, run them on your own machine, and get the same verdict axlekeys.com gives — offline, in about 55ms.",
+  "author": {
+    "name": "Axle Keys",
+    "url": "https://axlekeys.com"
+  },
+  "homepage": "https://axlekeys.com",
+  "repository": "https://github.com/AxleKeys/cad-engine",
+  "license": "MIT",
+  "keywords": [
+    "cad",
+    "parametric",
+    "replicad",
+    "opencascade",
+    "step",
+    "geometry",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Axle Keys CAD engine",
+    "shortDescription": "Run Axle Keys model code locally and get the platform's verdict.",
+    "longDescription": "The real execution path behind axlekeys.com, packaged to run on your own machine: build parametric CAD from JavaScript, get the same deterministic verdict the hosted platform gives, and export STEP/STL. Ships the workflow skills that drive the hosted platform over MCP.",
+    "developerName": "Axle Keys",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "websiteURL": "https://axlekeys.com",
+    "defaultPrompt": [
+      "Build this model locally and show me the verdict.",
+      "Rebuild on every save while I edit the parameters.",
+      "Export this model to STEP."
+    ]
+  }
+}

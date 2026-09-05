@@ -1,0 +1,48 @@
+{
+  "name": "@axle-keys/cad-engine",
+  "version": "0.1.1",
+  "description": "Run Axle Keys model code locally: build parametric CAD, get the same verdict axlekeys.com gives, export STEP/STL. Offline, ~55ms per iteration.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=23"
+  },
+  "bin": {
+    "axle": "packages/engine/cli.mjs"
+  },
+  "files": [
+    "app/",
+    "packages/",
+    "examples/",
+    "docs/",
+    "skills/",
+    "media/",
+    "scripts/",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "node scripts/verify.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AxleKeys/cad-engine.git"
+  },
+  "homepage": "https://axlekeys.com",
+  "keywords": [
+    "cad",
+    "parametric",
+    "replicad",
+    "opencascade",
+    "step",
+    "stl",
+    "geometry",
+    "agent",
+    "mcp"
+  ],
+  "dependencies": {
+    "replicad": "0.23.0",
+    "replicad-opencascadejs": "0.23.0"
+  }
+}

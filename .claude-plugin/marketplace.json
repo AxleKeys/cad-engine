@@ -1,0 +1,30 @@
+{
+  "name": "axle-keys",
+  "description": "Axle Keys — the local CAD engine, and the workflow skills that drive the hosted platform.",
+  "owner": {
+    "name": "Axle Keys",
+    "url": "https://axlekeys.com"
+  },
+  "version": "0.1.1",
+  "plugins": [
+    {
+      "name": "axle-cad-engine",
+      "source": "./",
+      "description": "Build parametric CAD models in JavaScript, run them on your own machine, and get the same verdict axlekeys.com gives — offline, in about 55ms.",
+      "version": "0.1.1",
+      "author": {
+        "name": "Axle Keys"
+      },
+      "homepage": "https://axlekeys.com",
+      "repository": "https://github.com/AxleKeys/cad-engine",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "cad",
+        "parametric",
+        "geometry",
+        "fabrication"
+      ]
+    }
+  ]
+}
