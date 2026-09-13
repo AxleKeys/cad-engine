@@ -1,0 +1,18 @@
+{
+  "name": "@axle-keys/engine",
+  "version": "0.1.4",
+  "private": true,
+  "type": "module",
+  "description": "The Axle Keys geometry engine: executes Studio model code in Node with the same buildApi surface cadWorker gives the browser. Extracted 2026-08-10 (t22-localpack L1) so the geometry service and the published local pack share ONE execution path instead of copying it.",
+  "engines": { "node": ">=23" },
+  "main": "runner.mjs",
+  "bin": { "axle": "./cli.mjs" },
+  "exports": {
+    ".": "./runner.mjs",
+    "./checks": "./checks.mjs"
+  },
+  "dependencies": {
+    "replicad": "1.0.1",
+    "replicad-opencascadejs": "1.0.0"
+  }
+}
